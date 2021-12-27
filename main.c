@@ -27,7 +27,7 @@ int main(void){
     printf("\n Informe a classificação do filme: ");
     scanf("%d", &fi.classificacao_filme);
     
-    printf("\n Informe (0) se o filme não está disponível e (1) caso contrário: ");
+    printf("\n Digite: (0) caso o filme não está disponível, e (1) caso contrário: ");
     scanf("%d", &fi.esta_disponivel);
 
     printf("\n Cliente: %s", cli.nome);
